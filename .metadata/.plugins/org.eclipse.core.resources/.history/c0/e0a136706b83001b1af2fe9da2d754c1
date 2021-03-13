@@ -1,0 +1,26 @@
+package org.osk.rest;
+
+import org.osk.model.Transacciones;
+
+public class TransacionesService {
+
+	
+	public void deposito(Transacciones bean) {
+		
+		Transacciones transc = new Transacciones();
+		
+		if(bean.getDepositar() <= 0) {
+			transc.setSaldo(bean.getSaldo() + bean.getDepositar());
+			System.out.println("No puedes deposistar numero negativos");
+		}else if(bean.getDepositar() >= 0 && bean.getRetirar() >=0) {
+			bean.setSaldo(bean.getDepositar() + bean.getSaldo());
+		}
+		
+		
+	}
+	
+	public void retiros(Transacciones bean) {
+		
+	}
+	
+}

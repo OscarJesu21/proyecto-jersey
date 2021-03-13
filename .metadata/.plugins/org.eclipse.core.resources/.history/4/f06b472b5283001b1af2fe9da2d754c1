@@ -1,0 +1,8 @@
+package org.osk.model;
+
+public class Transacciones {
+
+	private int saldo;
+	
+	
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+/home/oscarj/eclipse-workspace/Banco-Azteca/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2435011644.index
+/BancoPractica/src/main/java
+/home/oscarj/eclipse-workspace/Banco-Azteca/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3826609147.index
+/BancoPractica/src/main/java
+/home/oscarj/eclipse-workspace/Banco-Azteca/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2745140753.index
+/ProyectoJerseyWeb/src

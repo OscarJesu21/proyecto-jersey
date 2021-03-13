@@ -1,0 +1,5 @@
+package org.osk.rest;
+
+public class TransaccionesService {
+
+}

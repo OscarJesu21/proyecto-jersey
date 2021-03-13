@@ -1,0 +1,12 @@
+package org.osk.config;
+
+import javax.ws.rs.ApplicationPath;
+
+@ApplicationPath("/api")
+public class AppResourcesConfig {
+
+	public AppResourcesConfig() {
+		packages("org.osk.controller");
+		register(new LoggingFeature(Logger.getLogger(LoggingFeature.DEFAULT_LOGGER_NAME), Level.INFO, LoggingFeature.Verbosity.PAYLOAD_ANY, 10000));
+	}
+}

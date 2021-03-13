@@ -1,0 +1,6 @@
+org/osk/rest/Test.class
+org/osk/model/RespuestaBean.class
+org/osk/model/TransaccionesBean.class
+org/osk/service/TransacionesService.class
+org/osk/rest/TransaccionesController.class
+org/osk/rest/TransaccionesController$1.class

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/oscarj/eclipse-workspace/Banco-Azteca/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+546316764.index
+3625077394.index
+1678488505.index
+555994821.index
+2064691262.index
+3733792841.index

@@ -1,0 +1,17 @@
+package org.osk.rest;
+
+import org.osk.model.Transacciones;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		TransacionesService services;
+		
+		Transacciones transc = new Transacciones();
+		transc.setDepositar(100);
+		services.validacion(transc);
+
+	}
+
+}

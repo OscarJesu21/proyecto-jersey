@@ -1,0 +1,26 @@
+package org.osk.rest;
+
+import org.osk.model.Transacciones;
+
+public class TransacionesService {
+
+	
+	public void validacion(Transacciones bean) {
+		
+		int saldo = 5000;
+		int  retiro = 0;
+		int deposito;
+		
+		if(retiro <=0) {
+			System.out.println("No aceptamos numero negativos");
+		}else if(retiro <= saldo) {
+			saldo = saldo - retiro;
+			System.out.println("Su saldo es :" + saldo);
+			
+		}else {
+			System.out.println("No cuenta con el saldo suficiente");
+		}
+		
+	}
+	
+}
